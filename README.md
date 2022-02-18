@@ -205,5 +205,50 @@ namespace file_read<br>
         }<br>
     }<br>
 
-
+using System;<br>
+namespace diagonals<br>
+{<br>
+    class SumofDiagonal<br>
+    {<br>
+        static void Main(string[] args)<br>
+        {<br>
+            int MaxRow, MaxCol, Sum = 0;<br>
+            int[,] matrix;<br>
+            Console.WriteLine("\n .....sum of the diagonal of matrix.\n");<br>
+            Console.WriteLine("Enter the number of rows:");<br>
+            MaxRow = Convert.ToInt32(Console.ReadLine());<br>
+            Console.WriteLine("Enter the number of coloums:");<br>
+            MaxCol = Convert.ToInt32(Console.ReadLine());<br>
+            if (MaxRow != MaxCol)<br>
+            {<br><br>
+                Console.WriteLine("\n The dimensions entered are not squar matriies.");<br>
+                Console.WriteLine("\n exiting the program.");<br>
+                return;<br>
+            }<br>
+            matrix = new int[MaxRow, MaxCol];<br>
+            for (int i = 0; i < MaxRow; i++)<br>
+            {<br>
+                for (int j = 0; j < MaxCol; j++)<br>
+                {<br>
+                    Console.WriteLine("\nEnter the ({0},{1}) th element of the matrix:", (i + 1), (j + 1));<br>
+                    matrix[i , j] = Convert.ToInt32(Console.ReadLine());<br><br>
+                }<br>
+             }<br>
+    Console.WriteLine("\n The enter the matrix is:");<br>
+        for(int i=0;i<MaxRow;i++)<br>
+        {<br>
+        for(int j=0;j<MaxCol;j++)<br>
+        {<br>
+        Console.WriteLine(" "+matrix[i, j]);<br>
+        if(i==j)<br>
+        {<br>
+        Sum+=matrix[i, j];<br>
+        }<br>
+}<br>
+Console.WriteLine();<br>
+}<br>
+Console.WriteLine("\n The sum of diagonal is"+ Sum);<br>
+}<br>
+}<br>
+}<br>
            
