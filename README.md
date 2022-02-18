@@ -204,7 +204,7 @@ namespace file_read<br>
                 Console.WriteLine(" contents of file are not same");<br>
             }<br>
         }<br>
-    }<br><br>
+    }<br>
 }<br>
 
 
