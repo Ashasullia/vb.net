@@ -34,7 +34,7 @@ namespace ThreadPoolProg<br>
     }<br>
     
     
-    using System;<br>
+    using System;
 namespace Exercises<br>
 {<br>
     class Fraction : IComparable<br>
@@ -199,13 +199,11 @@ namespace file_read<br>
             
             }<br>
             else<br>
-            }<br>
             {<br>
                 Console.WriteLine(" contents of file are not same");<br>
             }<br>
         }<br>
     }<br>
-}<br>
 
 
            
