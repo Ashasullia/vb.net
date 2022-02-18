@@ -92,6 +92,11 @@ namespace Exercises<br>
         }<br>
     }<br>
 }<br>
+output:<br>
+
+![image](https://user-images.githubusercontent.com/99865138/154637905-5b04f2b7-9bdf-4e82-947d-37a329799d09.png)
+![image](https://user-images.githubusercontent.com/99865138/154637942-6b766cb5-4adb-465b-bb45-20519521efb9.png)
+
 
 
 using System;<br>
@@ -169,6 +174,7 @@ namespace FileRead<br>
     }<br>
 }<br>
 }<br>
+Output:<br>
 
 
 using System;<br>
@@ -204,6 +210,9 @@ namespace file_read<br>
             }<br>
         }<br>
     }<br>
+    output:<br>
+    ![image](https://user-images.githubusercontent.com/99865138/154637600-8e8a253c-32a6-40ea-914b-aa6c91a4b6ea.png)
+
 
 using System;<br>
 namespace diagonals<br>
@@ -251,4 +260,6 @@ Console.WriteLine("\n The sum of diagonal is"+ Sum);<br>
 }<br>
 }<br>
 }<br>
-           
+output:<br>
+![image](https://user-images.githubusercontent.com/99865138/154637383-acfb98f7-aa5a-437d-a956-b9fe49e3539d.png)
+
